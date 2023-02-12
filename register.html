@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>register</title>
+    <style>
+      h2{
+        text-align: center;
+      }
+     div{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Registration form</h2>
+    <form action="register.php" method="post">
+      <div >
+      <b>Name</b>
+      <input type="text" name="Name" placeholder="" required>
+      </div>
+      <br>
+      <div >
+      <b>Gender</b>
+      <input type="radio" id="male" name="gender" value="Male">
+      <label>Male</label>
+      <input type="radio" id="female" name="gender" value="Female">
+      <label>Female</label>
+      <input type="radio" id="others" name="gender" value="Others">
+      <label>Others</label>
+      </div>
+      <br>
+      <div  >
+      <b>Email</b>
+      <input type="text" name="txtemail" placeholder="rahul@example.com" reqiured>
+      </div>
+      <br>
+      <div >
+      <b>Password</b>
+      <input type="password" name="pass" placeholder ="minumum 5 characters" reqiured>
+      </div>
+      <br>
+      <div >
+      <b>Phone Number</b>
+      <input type = "numbers " name="numbers" placeholder="10 characters" required>
+      </div>
+      <br>
+      <div>
+      <button type="submit"><a style="text-decoration : none" href="login.html">submit</a></button>
+      <br>
+      </div>
+      <div style="text-align: right;">
+      <p>Already have an account?
+      <a href="login.html">login</a></p></div>
+    </form>
+  </body>
+</html>
